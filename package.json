@@ -1,0 +1,45 @@
+{
+  "name": "identity-sdk-js",
+  "version": "0.0.0",
+  "description": "Isomorphic JS SDK for the Identity service",
+  "author": "Horia Coman <horia141@gmail.com>",
+  "scripts": {
+    "build": "webpack",
+    "test": "true",
+    "test-travis": "true"
+  },
+  "respository": {
+    "type": "git",
+    "url": "git+https://github.com/ocelot-saas/identity-sdk-js.git"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/ocelot-saas/identity-sdk-js/issues"
+  },
+  "homepage": "https://github.com/ocelot-saas/identity-sdk-js#readme",
+  "main": "dist/identity-sdk-js.js",
+  "files": [
+    "src",
+    "dist",
+    "webpack.config.js"
+  ],
+  "dependencies": {
+    "auth0-js": "^7.0.4",
+    "auth0-lock": "^10.0.0-rc.1",	
+    "es6-promise": "^4.0.5",
+    "iconv-lite": "^0.4.13",
+    "isomorphic-fetch": "^2.2.1",
+    "xhr2": "^0.1.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-es2016": "^6.16.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.4"
+  }
+}
