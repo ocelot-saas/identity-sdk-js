@@ -1,6 +1,6 @@
 {
   "name": "identity-sdk-js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Isomorphic JS SDK for the Identity service",
   "author": "Horia Coman <horia141@gmail.com>",
   "scripts": {
@@ -18,7 +18,6 @@
     "url": "https://github.com/ocelot-saas/identity-sdk-js/issues"
   },
   "homepage": "https://github.com/ocelot-saas/identity-sdk-js#readme",
-  "main": "dist/identity-sdk-js.js",
   "files": [
     "src",
     "dist",
