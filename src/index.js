@@ -88,7 +88,7 @@ export class IdentityService {
 			  if (response.ok) {
 			      response.json()
 				  .then((json) => {
-				      resolve(json.user);
+				      resolve({accessToken: accessToken, user: json.user});
 				  })
 				  .catch((error) => {
 				      reject(error);
@@ -102,7 +102,7 @@ export class IdentityService {
 					if (response.ok) {
 					    response.json()
 						.then((json) => {
-						    resolve(json.user);
+						    resolve({accessToken: accessToken, user: json.user});
 						})
 						.catch((error) => {
 						    reject(error);

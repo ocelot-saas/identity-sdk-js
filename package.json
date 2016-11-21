@@ -1,6 +1,6 @@
 {
   "name": "identity-sdk-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Isomorphic JS SDK for the Identity service",
   "author": "Horia Coman <horia141@gmail.com>",
   "scripts": {
