@@ -1,6 +1,6 @@
 {
   "name": "identity-sdk-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Isomorphic JS SDK for the Identity service",
   "author": "Horia Coman <horia141@gmail.com>",
   "scripts": {
@@ -18,14 +18,14 @@
     "url": "https://github.com/ocelot-saas/identity-sdk-js/issues"
   },
   "homepage": "https://github.com/ocelot-saas/identity-sdk-js#readme",
+  "main": "src/index.js",
   "files": [
     "src",
-    "dist",
     "webpack.config.js"
   ],
   "dependencies": {
     "auth0-js": "^7.0.4",
-    "auth0-lock": "^10.0.0-rc.1",	
+    "auth0-lock": "^10.0.0-rc.1",
     "es6-promise": "^4.0.5",
     "iconv-lite": "^0.4.13",
     "isomorphic-fetch": "^2.2.1",
